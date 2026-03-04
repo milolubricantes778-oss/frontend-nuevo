@@ -115,7 +115,7 @@ function LoginPage() {
               fontSize: { xs: "2rem", sm: "3rem" },
             }}
           >
-            Nina
+            Milo
           </Typography>
           <Typography
             variant="h5"
@@ -253,7 +253,7 @@ function LoginPage() {
             Sistema de Gestión v1.0
           </Typography>
           <Typography variant="body2" color="text.secondary" sx={{ fontSize: { xs: "0.75rem", sm: "0.875rem" } }}>
-            © 2025 Nina Lubricantes
+            © 2025 Milo Lubricantes
           </Typography>
         </Box>
       </Container>

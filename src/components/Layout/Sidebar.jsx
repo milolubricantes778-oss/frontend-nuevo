@@ -168,7 +168,7 @@ function SidebarContent({ onNavigation, onClose, showCloseButton }) {
           </Avatar>
           <Box>
             <Typography variant="h6" sx={{ fontWeight: "bold", color: "white", fontSize: "1.1rem" }}>
-              Nina
+              Milo
             </Typography>
             <Typography variant="body2" sx={{ color: "rgba(255, 255, 255, 0.9)", mt: -0.5, fontSize: "0.8rem" }}>
               Lubricantes
@@ -432,7 +432,7 @@ function SidebarContent({ onNavigation, onClose, showCloseButton }) {
           }}
         />
         <Typography variant="caption" sx={{ display: "block", color: "#666", fontSize: "0.7rem" }}>
-          © 2025 Nina Lubricantes
+          © 2025 Milo Lubricantes
         </Typography>
       </Paper>
     </Box>

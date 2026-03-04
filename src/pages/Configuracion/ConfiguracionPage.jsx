@@ -69,7 +69,7 @@ const ConfiguracionPage = () => {
   } = useForm({
     resolver: yupResolver(businessSchema),
     defaultValues: {
-      nombreNegocio: "Nina Lubricantes",
+      nombreNegocio: "Milo Lubricantes",
       direccion: "",
       telefono: "",
       email: "",
