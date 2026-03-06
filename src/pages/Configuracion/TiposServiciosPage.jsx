@@ -123,7 +123,12 @@ const TiposServiciosPage = () => {
       }
       handleCloseDialog()
     } catch (error) {
-      showNotification("Error al procesar la solicitud", "error")
+      const errData = error.response?.data?.error
+      const validationMsg =
+        Array.isArray(errData?.validationErrors) && errData.validationErrors.length > 0
+          ? errData.validationErrors[0].message
+          : errData?.message
+      showNotification(validationMsg || "Error al procesar la solicitud", "error")
     }
   }
 
